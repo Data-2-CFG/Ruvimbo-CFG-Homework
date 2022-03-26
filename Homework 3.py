@@ -10,8 +10,8 @@ if (raining == 'y'):
     print("Take an umbrella")
 elif (raining == 'n'):
     print("You don't need an umbrella")
-#
-#
+
+
 # # Question 2
 
 my_money = float(input('How much money do you have? '))
