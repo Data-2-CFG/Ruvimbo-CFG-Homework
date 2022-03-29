@@ -3,6 +3,7 @@
 # GIT WORKFLOW FUNDAMENTALS
 
 print("Hello world")
+
 # Working Directory
 # Staging Area
 # Local Repo (head)
