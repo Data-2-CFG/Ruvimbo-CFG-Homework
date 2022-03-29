@@ -2,7 +2,8 @@
 # describe each method and provide an example
 
 
-# In Python, the capitalize() method converts first character of a string to uppercase letter and lowercases all other characters, if any
+# In Python, the capitalize() method converts first character of a string to uppercase letter and
+# lowercases all other characters, if any
 # string = "tommy used to WORK on the Docks."
 # print(string.capitalize())
 
