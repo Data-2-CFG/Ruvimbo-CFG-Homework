@@ -4,7 +4,8 @@
 # Question 1
 # Simple ATM program
 #
-import unittest
+from unittest import mock
+from unittest import TestCase, main
 
 pin = {9217}
 
@@ -48,10 +49,17 @@ def withdraw():
 withdraw()
 exit()
 
+
+
 # TASK 3 (Testing)
-#
-# Question 1
-# Use the Simple ATM program to write unit tests for your functions.
-# You are allowed to re-factor your function to untangle some logic into smaller
-# blocks of code to make it easier to write tests.
-# Try to write at least 5 unit tests in total covering various cases.
+
+class TestATM(TestCase):
+
+    def test_check_pin(self):
+
+        pin_num = input("Welcome, please enter your pin: ")
+        expected = 9217
+        result = user_input(pin_num)
+        self.assertEqual(expected, result)
+
+    # Test if the pin is correct
