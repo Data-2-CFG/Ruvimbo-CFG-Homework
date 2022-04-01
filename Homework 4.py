@@ -1,35 +1,10 @@
 # coding=utf-8
-# Question 1
-# Complete definitions for key Git & GitHub terminology
-# GIT WORKFLOW FUNDAMENTALS
-
-
-# Working Directory
-# Staging Area
-# Local Repo (head)
-# Remote repo (master)
-
-
-# WORKING DIRECTORY STATES:
-# Staged
-# Modified
-# Committed
-
-
-# GIT COMMANDS:
-# Git add
-# Git commit
-# Git push
-# Git fetch
-# Git merge
-# Git pull
-
-
 # TASK 2 (Exception Handling)
 #
 # Question 1
 # Simple ATM program
 #
+import unittest
 
 pin = {9217}
 
@@ -66,29 +41,12 @@ def withdraw():
             else:
                 print("You have insufficient funds!")
 
-        except NameError:
+        except ValueError:
             print("Error! Invalid input please enter a valid number.")
 #            Error if user enters string value
 
 withdraw()
-
-
-
-
-
-
-
-
-
-
-
-
-# 4.Now we need to simulate cash withdrawal
-# 5.Accept the withdrawal amount
-# 6.Subtract the amount from the account balance and display the remaining balance
-# (NOTE! The balance cannot be negative!)
-# 7.However, when a user asks to withdraw more money than they have on their account
-# then you need to raise an error an exit the program.
+exit()
 
 
 # TASK 3 (Testing)
