@@ -48,7 +48,6 @@ def withdraw():
 withdraw()
 exit()
 
-
 # TASK 3 (Testing)
 #
 # Question 1
